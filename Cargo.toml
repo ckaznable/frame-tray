@@ -1,0 +1,15 @@
+[package]
+name = "frame-tray"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+eframe = { version = "0.36.2", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+freedesktop-icons = "0.4.0"
+futures-util = "0.3.34"
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+resvg = { version = "0.48.1", default-features = false }
+serde = "1.0.229"
+tokio = { version = "1.53.1", features = ["rt", "macros", "sync", "time"] }
+zbus = { version = "5.19.0", default-features = false, features = ["tokio"] }

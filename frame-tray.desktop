@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Frame Tray
+Comment=Show StatusNotifierItem tray icons in a window
+Exec=frame-tray
+Terminal=false
+X-GNOME-Autostart-enabled=true
